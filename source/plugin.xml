@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin
+>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+      		parentCategory="Project"
+            id="com.yobny.django.designcentre"
+            name="Django Design Centre">
+      </category>
+      <wizard
+            category="com.yobny.django.designcentre"
+            class="com.yobny.django.designcentre.wizard.project.DjangoNewProjectWizard"
+            icon="icons/sample.gif"
+            id="com.yobny.django.designcentre.wizard.project.DjangoNewProjectWizard"
+            name="New Django Project Wizard">
+      </wizard>
+   </extension>
+</plugin>
